@@ -1,0 +1,23 @@
+*{
+    top: 0;
+    margin: 0;
+}
+.opt{
+    display: flex;
+    text-indent: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+#sirn{
+    width: 600px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.logo{
+    filter: drop-shadow(5px 5px 3px white);
+}

@@ -1,0 +1,139 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-2 {
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    color: black;
+}
+
+.top-2>img {
+    margin-top: 50px;
+    width: 500px;
+    max-width: 100%;
+    margin-left: 20%;
+    animation: round linear infinite 5s;
+}
+
+@keyframes round {
+    50% {
+        transform: rotatey(180deg);
+    }
+}
+
+
+.top-1 {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff0000, #00ffff);
+}
+
+.top-1>h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(
+            to right, #000000, #ff0808,
+             #ff00aa, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+}
+
+.top-1>p {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.top-1>button {
+    margin-top: 40px;
+    margin-left: 30px;
+    background: linear-gradient(45deg , red, orange) ;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.top-1>button:hover {
+    background: red;
+}
+
+.top-1>img {
+    margin-top: 40px;
+    width: 500px;
+    max-width: 100%;
+}
+
+
+.top {
+    display: flex;
+}
+
+.cont {
+    display: flex;
+    margin: 20px;
+    margin-left: 30%;
+}
+
+.cnt-1 {
+    text-align: center;
+}
+
+.cnt-2 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cnt-3 {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.cnt-1>p {
+    font-size: 20px;
+}
+
+.cnt-2>P {
+    font-size: 20px;
+}
+
+.cnt-3>P {
+    font-size: 20px;
+}
+
+.top-2>p {
+    margin-top: 100px;
+    margin-left: 60%;
+    font-size: 40px;
+}
+
+@media screen and(width < 600px) {
+    .top>p {
+        margin-left: 10%;
+        font-size: 5px;
+    }
+
+}
+
+#btn2 {
+    margin-left: 67%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, red ,orange);
+    box-shadow: 10px 10px 10px #000000;
+    color: white;
+    font-size: 23px;
+    width: 150px;
+}
