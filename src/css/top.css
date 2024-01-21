@@ -1,0 +1,31 @@
+h3 {
+    font-size: 18px !important;
+}
+
+h2 {
+    font-size: 20px !important;
+}
+
+#h3 {
+    color: red;
+}
+
+@media (max-width:600px) {
+    #sirn {
+        width: 100px;
+    }
+}
+
+.imagetop {
+    width: calc(100% - 0px);
+}
+
+.seg {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.seg input {
+    width: 500px;
+}
